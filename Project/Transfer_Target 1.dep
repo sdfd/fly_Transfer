@@ -1,0 +1,297 @@
+Dependencies for Project 'Transfer', Target 'Target 1': (DO NOT MODIFY !)
+F (..\CMSIS\startup\arm\startup_stm32f10x_hd.s)(0x4D783CDE)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"--list ..\listing\startup_stm32f10x_hd.lst --xref -o ..\output\startup_stm32f10x_hd.o --depend ..\output\startup_stm32f10x_hd.d)
+F (..\CMSIS\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\core_cm3.o --omf_browse ..\output\core_cm3.crf --depend ..\output\core_cm3.d)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+F (..\CMSIS\system_stm32f10x.c)(0x4D783CB0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\system_stm32f10x.o --omf_browse ..\output\system_stm32f10x.crf --depend ..\output\system_stm32f10x.d)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\User\main.c)(0x53C7FC5D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\User\main.h)(0x53C55431)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+I (..\BSP\NRF24L01.h)(0x53B8010A)
+I (..\BSP\SPI.h)(0x53B8E4B2)
+I (..\BSP\Usart1.h)(0x53B67230)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\BSP\NVIC.h)(0x53B7BE16)
+I (..\BSP\LED.h)(0x53B8BC16)
+I (..\BSP\DMA.h)(0x53B93476)
+I (..\BSP\I2C.h)(0x53C12AC0)
+I (..\BSP\MPU6050.h)(0x53BACE74)
+I (..\User\stm32f10x_it.h)(0x53C556DA)
+F (..\User\stm32f10x_conf.h)(0x53B9714A)()
+F (..\User\stm32f10x_it.c)(0x53C556F1)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_it.o --omf_browse ..\output\stm32f10x_it.crf --depend ..\output\stm32f10x_it.d)
+I (..\User\stm32f10x_it.h)(0x53C556DA)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\User\stm32f10x_it.h)(0x53C556DA)()
+F (..\BSP\Usart1.c)(0x53C55007)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\usart1.o --omf_browse ..\output\usart1.crf --depend ..\output\usart1.d)
+I (..\BSP\Usart1.h)(0x53B67230)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\BSP\NVIC.c)(0x53B92FE0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\nvic.o --omf_browse ..\output\nvic.crf --depend ..\output\nvic.d)
+I (..\BSP\NVIC.h)(0x53B7BE16)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\BSP\SPI.c)(0x53B8E4B2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\spi.o --omf_browse ..\output\spi.crf --depend ..\output\spi.d)
+I (..\BSP\SPI.h)(0x53B8E4B2)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\BSP\NRF24L01.c)(0x53B8FF84)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\nrf24l01.o --omf_browse ..\output\nrf24l01.crf --depend ..\output\nrf24l01.d)
+I (..\BSP\NRF24L01.h)(0x53B8010A)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+I (..\BSP\SPI.h)(0x53B8E4B2)
+F (..\BSP\LED.c)(0x53B8B91A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\led.o --omf_browse ..\output\led.crf --depend ..\output\led.d)
+I (..\BSP\LED.h)(0x53B8BC16)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\BSP\DMA.c)(0x53B92F74)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\dma.o --omf_browse ..\output\dma.crf --depend ..\output\dma.d)
+I (..\BSP\DMA.h)(0x53B93476)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+I (..\BSP\NRF24L01.h)(0x53B8010A)
+I (..\BSP\SPI.h)(0x53B8E4B2)
+F (..\BSP\I2C.c)(0x53C12F1C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\i2c.o --omf_browse ..\output\i2c.crf --depend ..\output\i2c.d)
+I (..\BSP\I2C.h)(0x53C12AC0)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\BSP\MPU6050.c)(0x53C13044)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\mpu6050.o --omf_browse ..\output\mpu6050.crf --depend ..\output\mpu6050.d)
+I (..\BSP\MPU6050.h)(0x53BACE74)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+I (..\BSP\I2C.h)(0x53C12AC0)
+F (..\Lib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\misc.o --omf_browse ..\output\misc.crf --depend ..\output\misc.d)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_spi.o --omf_browse ..\output\stm32f10x_spi.crf --depend ..\output\stm32f10x_spi.d)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_usart.o --omf_browse ..\output\stm32f10x_usart.crf --depend ..\output\stm32f10x_usart.d)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_tim.o --omf_browse ..\output\stm32f10x_tim.crf --depend ..\output\stm32f10x_tim.d)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_dma.o --omf_browse ..\output\stm32f10x_dma.crf --depend ..\output\stm32f10x_dma.d)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
+F (..\Lib\src\stm32f10x_i2c.c)(0x4D783BB4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\CMSIS -I..\Lib\inc -I..\User -I..\BSP --C99-I "E:\Program Files\keil_ARM_5.11\ARM\RV31\INC"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include"-I "E:\Program Files\keil_ARM_5.11\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include"-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD-o ..\output\stm32f10x_i2c.o --omf_browse ..\output\stm32f10x_i2c.crf --depend ..\output\stm32f10x_i2c.d)
+I (..\Lib\inc\stm32f10x_i2c.h)(0x4D783BB4)
+I (..\CMSIS\stm32f10x.h)(0x4D783CB4)
+I (..\CMSIS\core_cm3.h)(0x4D523B58)
+I (E:\Program Files\keil_ARM_5.11\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\CMSIS\system_stm32f10x.h)(0x4D783CAA)
+I (..\User\stm32f10x_conf.h)(0x53B9714A)
+I (..\Lib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\Lib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\Lib\inc\misc.h)(0x4D783BB4)
